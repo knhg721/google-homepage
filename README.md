@@ -1,0 +1,1 @@
+This project serves the sole purpose of demonstrating the skills and knowledge aquired so far when it comes with basic html and css.
