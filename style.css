@@ -52,47 +52,117 @@
     margin:20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
 }
 .bar{
-    border: none;
-    outline: none;
-    background-color: transparent;
-    opacity: 0.45;
-    width: 32rem;
-    height: 34px;
+    border: 0.5px solid lightgray;
+    border-radius: 24px;
+    opacity: 0.65;
+    width: 36rem;
+    height: 44px;
     line-height: 34px;
+    margin-bottom: 4em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 
 }
 #search-bar{
     height: 234px;
-    border-radius: 24px;
+    border: none;
+    margin-left: 4em;
+    outline: none;
+    background-color: transparent;
 }
-#search-bar:hover:focus {
-    outline:none;
-    box-shadow: rgba(0, 0, 0, 0.87);
+.bar:hover {
+    box-shadow: 0px 0.8px 5.2px lightgrey;
 }
 .buttons{
     display: flex;
-    width: 75%;
-    justify-content: space-between;
+    width: 100%;
+    height:36px;
+    justify-content: center;
     align-items: flex-end;
-    margin: 4px 11px;
-    padding: 0px 16px;
+    
 }
 .submit{
     display: flex;
     justify-self: self-start;
-    margin: 6px 13px;
-    padding: 2px 18px;
+    position: static;
+    color: #222;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    height:36px;
+    min-width: 54px;
+    border:none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
 }
 .lucky{
     display: flex;
     justify-self: self-end;
-    margin: 6px 13px;
-    padding: 2px 18px;
+    position: static;
+    color: #222;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    height: 36px;
+    min-width: 54px;
+    border:none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+}
+.submit:hover{
+    border: 1px solid lightgray;
+    box-shadow: 0px 0.5px 2.5px lightgray;
+}
+.lucky:hover{
+    border: 1px solid lightgray;
+    box-shadow: 0px 0.5px 2.5px lightgray;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    margin: 8px;
+    padding: 8px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    list-style: none;
+    text-decoration: none;
+}
+.lfooter a{
+    padding: 2px;
+    margin: 2px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    list-style: none;
+}
+.lfooter a:hover{
+    text-decoration: underline;
+}
+.rfooter a{
+    padding: 2px;
+    margin: 2px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    list-style: none;
+}
+.rfooter a:hover{
+    text-decoration: underline;
+}
+.lfooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; 
+  padding: 5px; 
+}
+.rfooter{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
 }
